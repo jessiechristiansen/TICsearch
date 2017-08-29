@@ -1,9 +1,9 @@
 # TICsearch
 Produce a properly formatted file for upload to the MAST TESS portal
 
-Say you have a list of stars and you want to know the TESS Input Catalog (TIC) ID, position, TESS_mag, etc. Here is a short python script that uses astroquery.simbad to scrape the list of star names, resolve the positions with SIMBAD, and print a properly formatted file for upload to the MAST TESS portal (https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html). 
+Say you have a list of stars (nearby M dwarfs!) and you want to know the corresponding TESS Input Catalog (TIC) ID, position, TESS_mag, etc for each star. Here is a short python script that uses astroquery.simbad to scrape the list of star names, resolve the positions with SIMBAD, and print a properly formatted file for upload to the MAST TESS portal (https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html). 
 
-First, update the script to point to the correct inputFile of star names (example file fulllist.txt) and desired outputFile name of the new file. Run the produce_tic_search_file.py file and confirm the output is as expected. Star names that do not resolve in SIMBAD are printed to the output terminal.
+First, update the produce_tic_search_file.py script to point to the correct inputFile of star names (example file fulllist.txt is uploaded) and desired outputFile name of the new file. Run the produce_tic_search_file.py file and confirm the output is as expected. Star names that do not resolve in SIMBAD are printed to the output terminal.
 
 Once you have the file, at the MAST TESS portal you can navigate:
   Select a Collection: MAST Catalogs, then 

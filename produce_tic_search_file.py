@@ -10,9 +10,12 @@ import astropy
 import unicodedata
 from astroquery.simbad import Simbad
 
-lines = [line.rstrip('\n') for line in open('~/nexsci/fulllist.txt')]
+inputFile = '~/nexsci/fulllist.txt'
+outputFile = '~/nexsci/fulllist_with_coords.txt'
 
-f = open('~/nexsci/fulllist_with_coords.txt','w')      
+lines = [line.rstrip('\n') for line in open(inputFile)]
+
+f = open(outputFile,'w')      
 
 
 for i in range(len(lines)):

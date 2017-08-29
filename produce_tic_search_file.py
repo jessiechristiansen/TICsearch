@@ -16,7 +16,7 @@ outputFile = '~/nexsci/fulllist_with_coords.txt'
 lines = [line.rstrip('\n') for line in open(inputFile)]
 
 f = open(outputFile,'w')      
-
+f.write('Star_ID, RA, Dec\n')
 
 for i in range(len(lines)):
 

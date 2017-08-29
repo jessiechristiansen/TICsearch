@@ -8,6 +8,6 @@ First, update the produce_tic_search_file.py script to point to the correct inpu
 Once you have the file, at the MAST TESS portal you can navigate:
   Select a Collection: MAST Catalogs, then 
   Mission: TESS Input (~600 million targets) or TESS CTL (~10 million targets), then
-  Upload Target List: and browse to the file created by the python script. 
+  Upload Target List: and browse to the file created by the python script. I've attached a screenshot showing where all these fields are in case you don't see them.
   
 You should get to a screen that looks like the uploaded screenshot. Because of the original file formatting, you can use the nifty MAST tools (like AstroView) to see your targets. There are many columns of information in the TIC, browse through and download the resulting table using the icon with the green arrow. 
